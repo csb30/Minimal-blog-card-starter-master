@@ -1,56 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>devChallenges.io | Minimal Blog Card</title>
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
-      body {
-        height: 100vh;
-      }
+  <title>devChallenges.io | Minimal Blog Card</title>
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+  <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Design
+    body {
+      height: 100vh;
+      font-family: "Sora", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
 
-  Embracing Minimalism
+    .author-info {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 16px;
+      color: rgb(55, 65, 81);
+    }
 
-  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
+    .author-info a {
+      text-decoration: none;
+    }
 
-  Annie Spratt -->
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 16px;
+      margin-bottom: 6px;
+    }
+
+    .body {
+      font-size: 14px;
+      color: #394150;
+      font-weight: 300;
+    }
+
+    .small-text {
+      font-size: 12px;
+      color: #394150;
+      margin-bottom: 4px;
+    }
+
+    .tag {
+      font-size: 10px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 16px;
+      padding-right: 16px;
+      background-color: #F2EAFD;
+      color: #7C19EE;
+      border-radius: 16px;
+      font-weight: 700;
+    }
+
+    .container {
+      box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+      width: 368px;
+      border-radius: 16px;
+      padding: 16px;
+      margin-top: 164px;
+    }
+
+    img {
+      border-radius: 16px;
+      margin-bottom: 16px;
+    }
+    hr{
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border: 1px solid #E5EAF0;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="container">
+      <img src="/resources/Cactus.jpg" />
+      <span class="tag">Design</span><br>
+
+      <div class="title">
+        Embracing Minimalism
+      </div>
+
+      <div class="body">
+        From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that
+        lies
+        in
+        simplicity.
+      </div>
+      <hr>
+      <div class="small-text">
+        Annie Spratt
+      </div>
+    </div>
 
     <div class="author-info">
       Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
